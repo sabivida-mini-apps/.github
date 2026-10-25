@@ -1,3 +1,5 @@
+<p><img src="https://raw.githubusercontent.com/sabivida-mini-apps/.github/main/assets/banner.png" alt="SabiVida mini apps: your service, inside the app Cape Verdean families use to run their homes." width="100%"></p>
+
 ## SabiVida mini apps
 
 The official developer home of [SabiVida](https://sabivida.com), the household life-admin service for Cape Verdean families on the islands and across the diaspora. *Vive sábi, djuntu.*
