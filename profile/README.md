@@ -17,7 +17,7 @@ A SabiVida mini app is a partner's web app that opens inside SabiVida for consul
 | | |
 | --- | --- |
 | [partner-kit](https://github.com/sabivida-mini-apps/partner-kit) | Developer guide, protocol reference, SDK source and changelog. Start here. |
-| [first-app-react](https://github.com/sabivida-mini-apps/first-app-react) · [next](https://github.com/sabivida-mini-apps/first-app-next) · [vue](https://github.com/sabivida-mini-apps/first-app-vue) · [solid](https://github.com/sabivida-mini-apps/first-app-solid) · [plain](https://github.com/sabivida-mini-apps/first-app) | Templates for your first mini app, each with SabiVida sign-in on your server and `npm run dev:mock`, a local stand-in for SabiVida. |
+| [starter-react](https://github.com/sabivida-mini-apps/starter-react) · [next](https://github.com/sabivida-mini-apps/starter-next) · [vue](https://github.com/sabivida-mini-apps/starter-vue) · [solid](https://github.com/sabivida-mini-apps/starter-solid) · [plain](https://github.com/sabivida-mini-apps/first-app) | Templates for your first mini app, each with SabiVida sign-in on your server and `npm run dev:mock`, a local stand-in for SabiVida. |
 | [registry](https://github.com/sabivida-mini-apps/registry) | The listed partner apps, how to check an app is genuine, and partner applications. |
 
 Found a vulnerability? Report it privately through the repository's **Security** tab, never in a public issue.
