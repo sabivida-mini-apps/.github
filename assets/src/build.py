@@ -44,7 +44,11 @@ write('banner',canvas(1600,520,'\n'.join([lockup(88,104),text('Mini apps',84,196
 for repo,title,l1,l2,app,host,heading,button in [
   ('partner-kit','Partner kit','Guide, protocol and SDK to build','a SabiVida mini app.','Consular appointments','apps.partner.example','Book an appointment','Add to my plans'),
   ('first-app','First app','A starter page and server that verify','SabiVida sign-in and suggest plan steps.','Your first app','your-app.example','Hello, member','Add to my plans'),
-  ('registry','Partner registry','The public list of genuine','SabiVida partner apps.','Consular appointments','apps.partner.example','Is this app genuine?','Listed in the registry')]:
+  ('registry','Partner registry','The public list of genuine','SabiVida partner apps.','Consular appointments','apps.partner.example','Is this app genuine?','Listed in the registry'),
+  ('first-app-react','First app · React','React, Vite and TypeScript, with','SabiVida sign-in and a local stand-in.','Your first app','your-app.example','Hello, member','Add to my plans'),
+  ('first-app-next','First app · Next.js','Next.js App Router and TypeScript,','with SabiVida sign-in on your server.','Your first app','your-app.example','Hello, member','Add to my plans'),
+  ('first-app-vue','First app · Vue','Vue, Vite and TypeScript, with','SabiVida sign-in and a local stand-in.','Your first app','your-app.example','Hello, member','Add to my plans'),
+  ('first-app-solid','First app · Solid','Solid, Vite and TypeScript, with','SabiVida sign-in and a local stand-in.','Your first app','your-app.example','Hello, member','Add to my plans')]:
     write('social-'+repo,canvas(1280,640,'\n'.join([lockup(88,120),text(title,84,212,84,800,'#FFFFFF'),
       text(l1,88,338,32,500,'#FFFFFF'),text(l2,88,380,32,500,'#FFFFFF'),
       text('github.com/sabivida-mini-apps/'+repo,88,460,24,700,'#F7D116'),phone(840,64,app,host,heading,button)])),1280,640)
