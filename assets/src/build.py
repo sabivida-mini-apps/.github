@@ -43,7 +43,7 @@ write('banner',canvas(1600,520,'\n'.join([lockup(88,104),text('Mini apps',84,196
 # Social previews 1280x640
 for repo,title,l1,l2,app,host,heading,button in [
   ('partner-kit','Partner kit','Guide, protocol and SDK to build','a SabiVida mini app.','Consular appointments','apps.partner.example','Book an appointment','Add to my plans'),
-  ('first-app','First app','A starter page and server that verify','SabiVida sign-in and suggest plan steps.','Your first app','your-app.example','Hello, member','Add to my plans'),
+  ('starter-js','Starter · JS','Plain JavaScript on Node or a Worker,','with SabiVida sign-in on your server.','Your first app','your-app.example','Hello, member','Add to my plans'),
   ('registry','Partner registry','The public list of genuine','SabiVida partner apps.','Consular appointments','apps.partner.example','Is this app genuine?','Listed in the registry'),
   ('starter-react','Starter · React','React, Vite and TypeScript, with','SabiVida sign-in and a local stand-in.','Your first app','your-app.example','Hello, member','Add to my plans'),
   ('starter-next','Starter · Next.js','Next.js App Router and TypeScript,','with SabiVida sign-in on your server.','Your first app','your-app.example','Hello, member','Add to my plans'),
