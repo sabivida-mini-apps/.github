@@ -1,4 +1,4 @@
-<p><img src="https://raw.githubusercontent.com/sabivida-mini-apps/.github/main/assets/banner.png" alt="SabiVida mini apps: your service, inside the app Cape Verdean families use to run their homes." width="100%"></p>
+<p><img src="https://raw.githubusercontent.com/sabivida-mini-apps/.github/main/assets/banner.png" alt="SabiVida mini apps: bring your service to Cape Verdean families, wherever they live." width="100%"></p>
 
 ## SabiVida mini apps
 

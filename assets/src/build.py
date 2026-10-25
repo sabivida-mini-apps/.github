@@ -38,7 +38,7 @@ def write(name,svg,w,h):
     open(name+'.svg','w').write(svg); subprocess.run(['rsvg-convert','-w',str(w),'-h',str(h),name+'.svg','-o',name+'.png'],check=True); print('wrote',name+'.png')
 # Profile banner 1600x520
 write('banner',canvas(1600,520,'\n'.join([lockup(88,104),text('Mini apps',84,196,92,800,'#FFFFFF'),
-  text('Your service, inside the app Cape Verdean',88,326,34,500,'#FFFFFF'),text('families use to run their homes.',88,370,34,500,'#FFFFFF'),
+  text('Bring your service to Cape Verdean families,',88,326,34,500,'#FFFFFF'),text('wherever they live.',88,370,34,500,'#FFFFFF'),
   text('Invited partners · Consent first · Visible trust',88,436,26,700,'#F7D116'),phone(1130,56)])),1600,520)
 # Social previews 1280x640
 for repo,title,l1,l2,app,host,heading,button in [
